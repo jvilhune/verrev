@@ -1,0 +1,42 @@
+How to make a version number for your application in gitHub and how to get a specific version of your application out of github? See helpfile.txt ...
+
+One way is to use Releases and Tags.
+
+Publish a version (release) for your app on github
+
+Repositories - verrev - Releases (No releases published) - Create a new release
+Repositories - verrev - Releases - Draft a new release
+
+in verrev app I have 5 versions of app :
+(Repositories - verrev - Tags)
+v0.1.0
+v0.1.1
+v0.1.2
+v0.1.3
+v0.1.4
+
+Software of any version can be cloned to a workstation :
+
+C:\Users\PC> git clone --branch v0.1.0 https://github.com/jvilhune/verrev.git
+C:\Users\PC> git clone --branch v0.1.1 https://github.com/jvilhune/verrev.git
+C:\Users\PC> git clone --branch v0.1.2 https://github.com/jvilhune/verrev.git
+C:\Users\PC> git clone --branch v0.1.3 https://github.com/jvilhune/verrev.git
+C:\Users\PC> git clone --branch v0.1.4 https://github.com/jvilhune/verrev.git
+
+Any version of the software can be checked on github :
+
+https://github.com/jvilhune/verrev/tree/v0.1.0
+https://github.com/jvilhune/verrev/tree/v0.1.1
+https://github.com/jvilhune/verrev/tree/v0.1.2
+https://github.com/jvilhune/verrev/tree/v0.1.3
+https://github.com/jvilhune/verrev/tree/v0.1.4
+
+Any version of the software can be download as a zip file from github :
+
+https://github.com/jvilhune/verrev/releases/tag/v0.1.0
+https://github.com/jvilhune/verrev/releases/tag/v0.1.1
+https://github.com/jvilhune/verrev/releases/tag/v0.1.2
+https://github.com/jvilhune/verrev/releases/tag/v0.1.3
+https://github.com/jvilhune/verrev/releases/tag/v0.1.4
+
+
